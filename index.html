@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
@@ -12,25 +12,33 @@
 
         body {
             margin: 0;
-            border: solid 8px blue;
-            box-sizing: border-box;
+            /* border: solid 8px blue; */
+            /* box-sizing: border-box; */
             height: 100%;
             display: flex;
             flex-direction: column;
         }
 
 
+        /* POTEPANCAMP ロゴ */
         h1 {
             margin: 0;
             font-size: 0;
         }
-
-        img {
+        /* llllllllllllllllllllllll */
+        .logo-0 {
             vertical-align: bottom;
         }
 
+/* lllllllllllllllllllllllllllllllllllll */
+        /* img {
+            vertical-align: bottom;
+            width: 100%;
+            height: auto;
+        } */
 
-        .headerlist {
+        /* ロゴとハンバーガー */
+        header {
             background: pink;
             display: flex;
             align-items: center;
@@ -38,59 +46,209 @@
             padding: 15px;
         }
 
-        .hamberger {
+        /* .hamberger {
             width: 30;
-        }
-
-        section {
-            background: skyblue;
-        }
+        } */
 
 
-        nav {
-            background: orange;
+
+
+
+
+
+        /* 画像から */
+        main {
+            /* background: skyblue;
+            border: blue solid 8px; */
+            margin: 0 auto;
+            display: block;
+            position: relative;
         }
 
-        footer {
-            background: silver;
+        .gazo-0 img {
+            display: block;
+            /* width: 100%; */
+            /* vertical-align: bottom; */
+            width: 100%;
+            height: auto;
         }
+    
+        /* 最短5ヶ月で */
+        h2 {
+            font-size: 25px;
+            font-family: "Lato",sans-serif;
+            color: #333;
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        .bbb {
+            text-align: center;
+            position: absolute;
+            top: 55%;
+        }
+        /* .ccc {
+            width: 100%;
+            height: auto;
+        } */
+
+
+        .box-1 img {
+            width: 100%;
+        }
+
+        .img-2 {
+            display: inline-block;
+        
+            /* width: 30%;
+            height: auto; */
+        }
+
+        .img-3 {
+            zoom: 1.1;
+            display: inline-block;
+        }
+
+        .img-4 {
+            display: inline-block;
+
+        }
+
+        .btn-2 a {
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            color: #fff;
+            font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"MS Ｐゴシック","MS PGothic",sans-serif;
+        }
+
+        .btn-2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: orange;
+            border-radius: 100vh;
+            width: 28em;
+            height: 3.8em;
+            margin: 24px;
+            /* position: absolute; */
+
+        }
+
+        ul {
+            list-style: none;
+            /* position: absolute; */
+
+        }
+
+        li{
+            text-align: left;
+            font-size: 12px;
+            color: #a2a2a4;
+        }
+        
+        .riyou a {
+            text-decoration: none;
+            color: #a2a2a4;
+        }
+
+
+
+
+        /* @media (min-width: 600px) {
+            main {
+                display: flex;
+            }
+
+            gazo-0 {
+                width: 160px;
+            }
+            .bbb {
+                flex: 1;
+            }
+
+        } */
+
+
+
     </style>
 </head>
 
 
 <body>
     <header>
-        <div class="headerlist">
+        <div class="logo-0">
             <h1><img src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/header-logo-sp.png.webp"
-                    alt="POTEPANCAMP" width="148" height="16">
+                alt="POTEPANCAMP" width="148" height="16">
             </h1>
-            <!-- ハンバーガーメニュー -->
-            <div class="hamberger">
-                ハンバーガー
-            </div>
         </div>
+
+       
+        <!-- ハンバーガーメニュー -->
+        <div class="hamberger">
+            ハンバーガー
+        </div>
+
     </header>
 
 
 
-    <section>
-        <img src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp"
-            alt="画像1" width="400" height="440">
-
-        <h2>最短5ヶ月で<br>未経験からWebエンジニアへ
-        </h2>
-        <div>
-            <img src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/100percent@2x.svg" class="gazo-1" alt="転職成功者のWeb系開発企業の内定率">
-            <img src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/no1@2x.svg" class="gazo-2" alt="Webエンジニア輩出No.1">
-            <img src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/refund@2x.svg" class="gazo-3" alt="転職できなければ全額返金">
+    <main>
+        <div class="gazo-0">
+            <img src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp"
+                alt="画像1" width="750">
         </div>
-        <a href="https://camp.potepan.com/contact" class="btn-2">まずは無料カウンセリングへ
-        </a>
+        <div class="bbb">
+            <div class="ccc">
+                <h2>最短5ヶ月間で<br>未経験からWebエンジニアへ
+                </h2>
+                <div class="ddd">
+                    <div class="box-1">
+                        <div class="img-2">
+                            <img src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/100percent@2x.svg" width="128" height="128" alt="転職成功者のWeb系開発企業の内定率">
+                        </div> 
+                        <div class="img-3">
+                            <img src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/no1@2x.svg" width="140" height="140" alt="Webエンジニア輩出No.1">
+                        </div>
+                        <div class="img-4">
+                            <img src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/refund@2x.svg" width="128" height="128" alt="転職できなければ全額返金">
+                        </div>
+                    </div>
+                    <div class="btn-2">
+                        <a href="https://camp.potepan.com/contact" >まずは無料カウンセリングへ
+                        </a>
+                    </div>
+                </div>
+            </div>
+                <ul>
+                    <li>
+                        ※1: ショッパーズアイ「プログラミングスクール10社を対象にしたサイト比較イメージ調査（2020 年 5 月 22 日～25 日）」より全国の22～49歳の男女691名へのインターネット調査
+                    </li>
+                    <li>
+                        ※2: 29歳以下の転職サポート実施ユーザ（2021年7月~10月）
+                    </li>
+                    <div class="riyou">
+                        <li>
+                            ※3: 返金の条件については<span><a href="https://camp.potepan.com/terms">利用規約</a></span>をご参照ください
+                        </li>
+                    </div>                  
+                </ul>
+        </div>
+    </main>
+    <section>
+        <div class="video">
+            <video src="https://res.cloudinary.com/he3zvdcui/video/upload/v1684818240/IntroductionMovie/movie_l2rbjz.mp4"></video>
+        </div>
+        
+        <h3>
+            POTEPANCAMPとは
+        </h3>
+        <p>
+            経済産業省リスキングを通じたキャリアップ支援事業に認定されている、エンジニア転職特化型のプログラミングスクールです。現場評価の高いカリキュラムと、強力な転職サポートで、未経験からエンジニアへの転職を成功させます。
+        </p>
+
     </section>
 
-
-    <nav>Nav</nav>
-    <footer>Footer</footer>
 </body>
 
 </html>
